@@ -7,8 +7,8 @@ import logo from './brand.png';
 
 const HeaderComponent = () => {
     return (
-            <div className='flex items-center justify-between cursor-pointer p-5'>
-                <img src={logo} alt='logo' className='h-12 ml-3' />
+            <div className='h-[15vh] flex items-center justify-between cursor-pointer p-5'>
+                <img src={logo} alt='logo' className='h-16 ml-3' />
                 <div className='mr-3'>
                 <FontAwesomeIcon icon={faBars} size='2x'/>
                </div>
