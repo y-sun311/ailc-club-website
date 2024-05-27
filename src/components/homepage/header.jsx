@@ -10,7 +10,7 @@ const HeaderComponent = () => {
             <div className='h-[15vh] flex items-center justify-between cursor-pointer p-5'>
                 <img src={logo} alt='logo' className='h-16 ml-3' />
                 <div className='mr-3'>
-                <FontAwesomeIcon icon={faBars} size='2x'/>
+                <FontAwesomeIcon icon={faBars} size='2x' className='hover:scale-105'/>
                </div>
             </div>
     );
