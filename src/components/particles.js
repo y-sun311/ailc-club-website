@@ -26,9 +26,8 @@ const ParticlesComponent = () => {
 
   const options = useMemo(
     () => ({
-     fullScreen: { enable: false, zIndex: -10 },
-      
-      fpsLimit: 120,
+     fullScreen: { enable: false, zIndex: -1 },
+      fpsLimit: 150,
       interactivity: {
         events: {
           onClick: {
