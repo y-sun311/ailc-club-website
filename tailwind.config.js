@@ -8,6 +8,10 @@ module.exports = {
             'blue-home': '#165664',
           },
 
+          zIndex: {
+            '9999': '9999',
+          },
+
         fontFamily: {
             Source: ["Source Sans", "sans-serif"]
          }

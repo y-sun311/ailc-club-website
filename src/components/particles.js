@@ -26,9 +26,8 @@ const ParticlesComponent = () => {
 
   const options = useMemo(
     () => ({
-     fullScreen: { enable: false, zIndex: -10 },
-      
-      fpsLimit: 120,
+     fullScreen: { enable: false, zIndex: -1 },
+      fpsLimit: 150,
       interactivity: {
         events: {
           onClick: {
@@ -58,7 +57,7 @@ const ParticlesComponent = () => {
           color: "#ffffff",
           distance: 150,
           enable: true,
-          opacity: 1,
+          opacity: 0.5,
           width: 1,
         },
         move: {
@@ -68,7 +67,7 @@ const ParticlesComponent = () => {
             default: "bounce",
           },
           random: false,
-          speed: 3,
+          speed: 2.5,
           straight: false,
         },
         number: {
@@ -78,7 +77,7 @@ const ParticlesComponent = () => {
           value: 80,
         },
         opacity: {
-          value: 1,
+          value: 0.5,
         },
         shape: {
           type: "circle",
